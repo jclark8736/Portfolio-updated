@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align:right;
+    background-color: #2589bd;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+header h1 {
+    text-align:left
+}
+
+header ul {
+    list-style-type: none;
+    font-size: 20px;
+    display:inline-block;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+
+a:hover {
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+a:visited {
+    text-decoration:none;
+}
+
+body {
+    background-color: white
+}
+
+aside {
+    display: block;
+}
+
+aside ul {
+    margin-top: 200px
+    list-style-type: none;
+    }
+
+section {
+    background-color: ghostwhite;
+    margin: 30px;
+}
+
+section p {
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif
+}
+
+section h3 {
+    text-decoration: underline;
+}
+
+figure {
+    text-align:center;
+    border: 3px solid grey;
+}
+.code-projects {
+    display:flex; 
+    justify-content:center;
+    flex-wrap:wrap;
+    flex-direction:row;
+    display:inline-block;
+    justify-content:center;
+    margin:10px;
+    margin-top: 20px;
+    border: 3px solid grey;
+}
+
+.code-projects:hover {
+    border: 3px solid black;
+}
+
+.code-projects img {
+    width:400px;
+    height:400px;
+   
+}
+
+footer {
+    background-color: #2589bd;
+    display:inline-block
+    margin-top: 10px;
+}
+
+footer ul {
+    display:inline-block;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+
+footer ul li{
+    display:inline-block;
+    margin: 15px;
+    font-size: 20px;
+    text-decoration:underline
+}
+
+@media screen and (max-width: 990px) {
+    .code-projects img {
+        width:200px;
+        height:200px;
+    }
+    section p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .code-projects img {
+        width:100px;
+        height:100px;
+    }
+    section p {
+        font-size: 10px;
+    }
+}
