@@ -4,15 +4,15 @@
     margin: 0;
 }
 
-header {
+/* header {
     text-align:right;
     background-color: #2589bd;
     padding: 10px;
     color: white;
     text-decoration: none;
-}
+} */
 
-header h1 {
+/* header h1 {
     text-align:left
 }
 
@@ -25,7 +25,27 @@ header ul {
     justify-content:space-between;
     font-weight:bold;
     margin-top:10px;
+} */
+
+    .navbar-inverse {
+        /* background-color: #2589bd; */
+        background-color: ghostwhite;
+    }
+
+    .navbar-inverse li a {
+    color:black;
+    list-style-type: none;
+    font-size: 20px;
+    display:inline-block;
+    display:flex;
+    justify-content:space-between;
+    font-weight:bold;
+    margin-top:10px;
+    font-family:'Times New Roman', Times, serif
+    
+    
 }
+
 
 
 a:hover {
