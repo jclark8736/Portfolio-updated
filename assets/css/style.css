@@ -40,6 +40,10 @@ a:visited {
     text-decoration:none;
 }
 
+header a {
+    color:black;
+}
+
 body {
     background-color: white
 }
@@ -65,6 +69,7 @@ section p {
 
 section h3 {
     text-decoration: underline;
+    
 }
 
 figure {
@@ -112,6 +117,10 @@ footer ul li{
     margin: 15px;
     font-size: 20px;
     text-decoration:underline
+}
+
+footer a {
+    color:black;
 }
 
 @media screen and (max-width: 990px) {
